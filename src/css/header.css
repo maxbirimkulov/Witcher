@@ -1,0 +1,44 @@
+.header{
+    width: 100%;
+    position: absolute;
+}
+.row{
+    display: flex;
+    padding-top: 60px;
+}
+.nav{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 68px;
+    align-items: center;
+}
+.nav-link{
+    font-family: Roboto,sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    text-decoration: none;
+    color: #FFFFFF;
+    margin-left: 24px;
+}
+.nav-link:hover{
+    color: red;
+}
+.nav-link:first-child{
+    margin-left: 0;
+}
+.icon{
+    width: 17.27px;
+    height: 16.78px;
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+}
+.icon:hover{
+    color: red;
+}
+.icon:first-child{
+    margin-left: 0;
+}
