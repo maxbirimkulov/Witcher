@@ -1,0 +1,135 @@
+.content{
+    padding: 187px 0 99px;
+    background: url("../images/content/background.png") top right/contain no-repeat;
+}
+.content-row{
+    display: flex;
+    justify-content: space-between;
+    width: calc(100% - 166px);
+}
+.content-date{
+    font-family: Roboto,sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    color: #FFFFFF;
+}
+
+.rating-start{
+    margin-top: 16px;
+}
+.rating-num{
+    font-family: Roboto,sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    color: #FFFFFF;
+}
+.content-title{
+    font-family: Mason Chronicles,sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 76px;
+    line-height: 89px;
+    color: #FFFFFF;
+    margin-top: 10px;
+}
+.content-subtitle{
+    font-family: Roboto,sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 150%;
+    margin-top: 10px;
+    color: #FFFFFF;
+    width: 458px;
+}
+.content-right{
+    margin-top: 167px;
+}
+.content-play{
+    position: relative;
+    display: inline-block;
+    width: 132px;
+    height: 132px;
+    background: #9D292950;
+    border-radius: 50%;
+}
+.content-play::before{
+    position: absolute;
+    content: '';
+    width: 100px;
+    height: 100px;
+    background: #9D2929;
+    border-radius: 50%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.content-play::after{
+     position: absolute;
+     content: url("../images/play-video/Vector.svg");
+     top: 50%;
+     left: 50%;
+     transform: translate(-50%,-50%);
+ }
+.btn{
+    width: 260px;
+    height: 60px;
+    left: 153px;
+    top: 483px;
+    background: #9D2929;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    color: white;
+    margin-top: 40px;
+    transition: 1s;
+}
+.btn:hover{
+    color: black;
+    background-color: white;
+    transition: 1s;
+}
+.episode-row{
+    width: 419.49px;
+    height: 113px;
+    margin-top: 85px;
+    display: flex;
+}
+.episode{
+    width: 164px;
+    height: 113px;
+    border-radius: 8px;
+    margin-right: 30px;
+}
+.episode-1{
+    background: url("../images/card-image/card-image.png");
+}
+.episode-2{
+    background: url("../images/card-image/card-image (1).png");
+}
+.episode-text{
+    width: 95px;
+    height: 30px;
+    margin: 70px 0 0 13px;
+}
+.episode-num{
+    font-family: Roboto,sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 12px;
+    color: #FFFFFF;
+}
+.episode-title{
+    font-family: Roboto,sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    color: #FFFFFF;
+
+}

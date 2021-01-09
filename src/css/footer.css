@@ -1,0 +1,38 @@
+.footer{
+    width: 100%;
+    background: #141218;
+}
+.footer-row{
+    display: flex;
+    justify-content: space-between;
+    height: 60px;
+    align-items: center;
+}
+.footer-copyright{
+    font-family: Roboto,sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+    /* identical to box height, or 143% */
+
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+}
+.footer-link{
+    font-family: Roboto,sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+    color: #FFFFFF;
+    text-decoration: none;
+    margin-left: 25px;
+}
+.footer-link:hover{
+    color: red;
+}
+.footer-link:first-child{
+    margin-left: 0;
+}
